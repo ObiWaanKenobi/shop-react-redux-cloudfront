@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 S3 - http://aws-react-app-bucket.s3-website-us-east-1.amazonaws.com/
 `(It will open with 403 error due to bucket's policy and cloudfront's OAI)`
 
-Cloudfront - https://d12zeel7phsyf9.cloudfront.net/
+Cloudfront - https://d1vp3nit8yj1ow.cloudfront.net/
 
 ## Available Scripts
 
