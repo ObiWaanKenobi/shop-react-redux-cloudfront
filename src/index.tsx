@@ -17,6 +17,14 @@ axios.interceptors.response.use(
       alert(error.response.data?.data);
     }
 
+    if (error?.response?.status === 401) {
+      alert(`Unauthorized error, please add authorization header to request!`);
+    }
+
+    if (error?.response?.status === 403) {
+      alert(`Forbidden error, please pass valid authorization token!`);
+    }
+
     return Promise.reject(error?.response ?? error);
   },
 );
